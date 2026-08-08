@@ -1,0 +1,263 @@
+{
+  "city": {"name": "Dhaka", "slug": "dhaka"},
+  "areas": [
+    {"name": "Uttara", "slug": "uttara", "latitude": 23.8759, "longitude": 90.3795},
+    {"name": "Banani", "slug": "banani", "latitude": 23.7937, "longitude": 90.4066},
+    {"name": "Mohakhali", "slug": "mohakhali", "latitude": 23.7806, "longitude": 90.4059},
+    {"name": "Motijheel", "slug": "motijheel", "latitude": 23.7310, "longitude": 90.4170},
+    {"name": "Mirpur", "slug": "mirpur", "latitude": 23.8010, "longitude": 90.3690},
+    {"name": "New Market", "slug": "new-market", "latitude": 23.7310, "longitude": 90.3845},
+    {"name": "Farmgate", "slug": "farmgate", "latitude": 23.7561, "longitude": 90.3894},
+    {"name": "Gabtoli", "slug": "gabtoli", "latitude": 23.7806, "longitude": 90.3489},
+    {"name": "Jatrabari", "slug": "jatrabari", "latitude": 23.7104, "longitude": 90.4370},
+    {"name": "Mohammadpur", "slug": "mohammadpur", "latitude": 23.7656, "longitude": 90.3588}
+  ],
+  "stops": [
+    {"name": "Uttara", "slug": "uttara-stop", "latitude": 23.8759, "longitude": 90.3795, "area_slug": "uttara"},
+    {"name": "Airport", "slug": "airport", "latitude": 23.8567, "longitude": 90.3849, "area_slug": null},
+    {"name": "Khilkhet", "slug": "khilkhet", "latitude": 23.8244, "longitude": 90.4125, "area_slug": null},
+    {"name": "Banani", "slug": "banani-stop", "latitude": 23.7937, "longitude": 90.4066, "area_slug": "banani"},
+    {"name": "Mohakhali", "slug": "mohakhali-stop", "latitude": 23.7806, "longitude": 90.4059, "area_slug": "mohakhali"},
+    {"name": "Farmgate", "slug": "farmgate-stop", "latitude": 23.7561, "longitude": 90.3894, "area_slug": "farmgate"},
+    {"name": "Karwan Bazar", "slug": "karwan-bazar", "latitude": 23.7508, "longitude": 90.3925, "area_slug": "farmgate"},
+    {"name": "Shahbagh", "slug": "shahbagh", "latitude": 23.7379, "longitude": 90.3954, "area_slug": null},
+    {"name": "Paltan", "slug": "paltan", "latitude": 23.7328, "longitude": 90.4103, "area_slug": "motijheel"},
+    {"name": "Gulistan", "slug": "gulistan", "latitude": 23.7259, "longitude": 90.4125, "area_slug": "motijheel"},
+    {"name": "Motijheel", "slug": "motijheel-stop", "latitude": 23.7333, "longitude": 90.4172, "area_slug": "motijheel"},
+    {"name": "Sayedabad", "slug": "sayedabad", "latitude": 23.7233, "longitude": 90.4322, "area_slug": "jatrabari"},
+    {"name": "Jatrabari", "slug": "jatrabari-stop", "latitude": 23.7104, "longitude": 90.4370, "area_slug": "jatrabari"},
+    {"name": "Gabtoli", "slug": "gabtoli-stop", "latitude": 23.7806, "longitude": 90.3489, "area_slug": "gabtoli"},
+    {"name": "Technical", "slug": "technical", "latitude": 23.7699, "longitude": 90.3654, "area_slug": "gabtoli"},
+    {"name": "Shyamoli", "slug": "shyamoli", "latitude": 23.7746, "longitude": 90.3657, "area_slug": "mohammadpur"},
+    {"name": "Agargaon", "slug": "agargaon", "latitude": 23.7784, "longitude": 90.3795, "area_slug": null},
+    {"name": "Mirpur 10", "slug": "mirpur-10", "latitude": 23.8067, "longitude": 90.3687, "area_slug": "mirpur"},
+    {"name": "Kazipara", "slug": "kazipara", "latitude": 23.7969, "longitude": 90.3708, "area_slug": "mirpur"},
+    {"name": "Shewrapara", "slug": "shewrapara", "latitude": 23.7986, "longitude": 90.3684, "area_slug": "mirpur"},
+    {"name": "Science Lab", "slug": "science-lab", "latitude": 23.7378, "longitude": 90.3833, "area_slug": null},
+    {"name": "New Market", "slug": "new-market-stop", "latitude": 23.7332, "longitude": 90.3854, "area_slug": "new-market"},
+    {"name": "Azimpur", "slug": "azimpur", "latitude": 23.7275, "longitude": 90.3831, "area_slug": "new-market"},
+    {"name": "Mohammadpur", "slug": "mohammadpur-stop", "latitude": 23.7656, "longitude": 90.3588, "area_slug": "mohammadpur"},
+    {"name": "Kalyanpur", "slug": "kalyanpur", "latitude": 23.7715, "longitude": 90.3568, "area_slug": null}
+  ],
+  "companies": [
+    {"name": "Anabil Paribahan", "slug": "anabil-paribahan"},
+    {"name": "Bihanga Paribahan", "slug": "bihanga-paribahan"},
+    {"name": "Turag Paribahan", "slug": "turag-paribahan"},
+    {"name": "Trust Transport", "slug": "trust-transport"},
+    {"name": "Bosumoti Paribahan", "slug": "bosumoti-paribahan"},
+    {"name": "Alif Paribahan", "slug": "alif-paribahan"},
+    {"name": "Etc Paribahan", "slug": "etc-paribahan"},
+    {"name": "Rajdhani Paribahan", "slug": "rajdhani-paribahan"}
+  ],
+  "buses": [
+    {"name": "Anabil Super", "slug": "anabil-super", "company_slug": "anabil-paribahan", "bus_type": "sitting", "color_hex": "#1d4ed8"},
+    {"name": "Anabil Classic", "slug": "anabil-classic", "company_slug": "anabil-paribahan", "bus_type": "local", "color_hex": "#2563eb"},
+    {"name": "Bihanga Classic", "slug": "bihanga-classic", "company_slug": "bihanga-paribahan", "bus_type": "local", "color_hex": "#059669"},
+    {"name": "Turag Express", "slug": "turag-express", "company_slug": "turag-paribahan", "bus_type": "local", "color_hex": "#d97706"},
+    {"name": "Turag City", "slug": "turag-city", "company_slug": "turag-paribahan", "bus_type": "local", "color_hex": "#ea580c"},
+    {"name": "Trust AC", "slug": "trust-ac", "company_slug": "trust-transport", "bus_type": "ac", "color_hex": "#7c3aed"},
+    {"name": "Bosumoti Classic", "slug": "bosumoti-classic", "company_slug": "bosumoti-paribahan", "bus_type": "local", "color_hex": "#0891b2"},
+    {"name": "Alif Classic", "slug": "alif-classic", "company_slug": "alif-paribahan", "bus_type": "sitting", "color_hex": "#be123c"},
+    {"name": "Etc Deluxe", "slug": "etc-deluxe", "company_slug": "etc-paribahan", "bus_type": "ac", "color_hex": "#4338ca"},
+    {"name": "Rajdhani Super", "slug": "rajdhani-super", "company_slug": "rajdhani-paribahan", "bus_type": "sitting", "color_hex": "#15803d"}
+  ],
+  "route_groups": [
+    {
+      "name": "Uttara - Motijheel",
+      "slug": "uttara-motijheel",
+      "bus_slug": "anabil-super",
+      "origin_label": "Uttara",
+      "destination_label": "Motijheel",
+      "avg_speed_kmph": 16,
+      "stops": [
+        {"stop_slug": "uttara-stop", "distance_from_start_km": 0},
+        {"stop_slug": "airport", "distance_from_start_km": 3},
+        {"stop_slug": "khilkhet", "distance_from_start_km": 6},
+        {"stop_slug": "banani-stop", "distance_from_start_km": 10},
+        {"stop_slug": "mohakhali-stop", "distance_from_start_km": 12},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 15},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 16.5},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 18},
+        {"stop_slug": "paltan", "distance_from_start_km": 19.5},
+        {"stop_slug": "gulistan", "distance_from_start_km": 20.5},
+        {"stop_slug": "motijheel-stop", "distance_from_start_km": 21.5}
+      ]
+    },
+    {
+      "name": "Gabtoli - Sayedabad",
+      "slug": "gabtoli-sayedabad",
+      "bus_slug": "bihanga-classic",
+      "origin_label": "Gabtoli",
+      "destination_label": "Sayedabad",
+      "avg_speed_kmph": 15,
+      "stops": [
+        {"stop_slug": "gabtoli-stop", "distance_from_start_km": 0},
+        {"stop_slug": "technical", "distance_from_start_km": 2},
+        {"stop_slug": "shyamoli", "distance_from_start_km": 4},
+        {"stop_slug": "agargaon", "distance_from_start_km": 6},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 9},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 10.5},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 12},
+        {"stop_slug": "paltan", "distance_from_start_km": 13.5},
+        {"stop_slug": "gulistan", "distance_from_start_km": 14.5},
+        {"stop_slug": "sayedabad", "distance_from_start_km": 17}
+      ]
+    },
+    {
+      "name": "Mirpur 10 - Azimpur",
+      "slug": "mirpur10-azimpur",
+      "bus_slug": "turag-express",
+      "origin_label": "Mirpur 10",
+      "destination_label": "Azimpur",
+      "avg_speed_kmph": 15,
+      "stops": [
+        {"stop_slug": "mirpur-10", "distance_from_start_km": 0},
+        {"stop_slug": "kazipara", "distance_from_start_km": 1.5},
+        {"stop_slug": "shewrapara", "distance_from_start_km": 3},
+        {"stop_slug": "agargaon", "distance_from_start_km": 5},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 8},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 9.5},
+        {"stop_slug": "science-lab", "distance_from_start_km": 12},
+        {"stop_slug": "new-market-stop", "distance_from_start_km": 13},
+        {"stop_slug": "azimpur", "distance_from_start_km": 14.5}
+      ]
+    },
+    {
+      "name": "Uttara - Gulistan (AC)",
+      "slug": "uttara-gulistan-ac",
+      "bus_slug": "trust-ac",
+      "origin_label": "Uttara",
+      "destination_label": "Gulistan",
+      "avg_speed_kmph": 20,
+      "stops": [
+        {"stop_slug": "uttara-stop", "distance_from_start_km": 0},
+        {"stop_slug": "airport", "distance_from_start_km": 3},
+        {"stop_slug": "banani-stop", "distance_from_start_km": 10},
+        {"stop_slug": "mohakhali-stop", "distance_from_start_km": 12},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 15},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 18},
+        {"stop_slug": "gulistan", "distance_from_start_km": 20.5}
+      ]
+    },
+    {
+      "name": "Mohammadpur - Jatrabari",
+      "slug": "mohammadpur-jatrabari",
+      "bus_slug": "bosumoti-classic",
+      "origin_label": "Mohammadpur",
+      "destination_label": "Jatrabari",
+      "avg_speed_kmph": 15,
+      "stops": [
+        {"stop_slug": "mohammadpur-stop", "distance_from_start_km": 0},
+        {"stop_slug": "shyamoli", "distance_from_start_km": 3},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 7},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 8.5},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 10},
+        {"stop_slug": "paltan", "distance_from_start_km": 11.5},
+        {"stop_slug": "gulistan", "distance_from_start_km": 12.5},
+        {"stop_slug": "motijheel-stop", "distance_from_start_km": 13.5},
+        {"stop_slug": "sayedabad", "distance_from_start_km": 16},
+        {"stop_slug": "jatrabari-stop", "distance_from_start_km": 18.5}
+      ]
+    },
+    {
+      "name": "Kalyanpur - Sayedabad",
+      "slug": "kalyanpur-sayedabad",
+      "bus_slug": "alif-classic",
+      "origin_label": "Kalyanpur",
+      "destination_label": "Sayedabad",
+      "avg_speed_kmph": 16,
+      "stops": [
+        {"stop_slug": "kalyanpur", "distance_from_start_km": 0},
+        {"stop_slug": "shyamoli", "distance_from_start_km": 2},
+        {"stop_slug": "agargaon", "distance_from_start_km": 5},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 8},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 9.5},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 11},
+        {"stop_slug": "paltan", "distance_from_start_km": 12.5},
+        {"stop_slug": "gulistan", "distance_from_start_km": 13.5},
+        {"stop_slug": "sayedabad", "distance_from_start_km": 16}
+      ]
+    },
+    {
+      "name": "Mirpur 10 - Motijheel (AC)",
+      "slug": "mirpur10-motijheel-ac",
+      "bus_slug": "etc-deluxe",
+      "origin_label": "Mirpur 10",
+      "destination_label": "Motijheel",
+      "avg_speed_kmph": 19,
+      "stops": [
+        {"stop_slug": "mirpur-10", "distance_from_start_km": 0},
+        {"stop_slug": "kazipara", "distance_from_start_km": 1.5},
+        {"stop_slug": "shewrapara", "distance_from_start_km": 3},
+        {"stop_slug": "agargaon", "distance_from_start_km": 5},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 8},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 9.5},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 12},
+        {"stop_slug": "paltan", "distance_from_start_km": 13.5},
+        {"stop_slug": "gulistan", "distance_from_start_km": 14.5},
+        {"stop_slug": "motijheel-stop", "distance_from_start_km": 15.5}
+      ]
+    },
+    {
+      "name": "Banani - Jatrabari",
+      "slug": "banani-jatrabari",
+      "bus_slug": "anabil-classic",
+      "origin_label": "Banani",
+      "destination_label": "Jatrabari",
+      "avg_speed_kmph": 15,
+      "stops": [
+        {"stop_slug": "banani-stop", "distance_from_start_km": 0},
+        {"stop_slug": "mohakhali-stop", "distance_from_start_km": 2},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 5},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 6.5},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 8},
+        {"stop_slug": "paltan", "distance_from_start_km": 9.5},
+        {"stop_slug": "gulistan", "distance_from_start_km": 10.5},
+        {"stop_slug": "motijheel-stop", "distance_from_start_km": 11.5},
+        {"stop_slug": "sayedabad", "distance_from_start_km": 14},
+        {"stop_slug": "jatrabari-stop", "distance_from_start_km": 16.5}
+      ]
+    },
+    {
+      "name": "Gabtoli - Jatrabari",
+      "slug": "gabtoli-jatrabari",
+      "bus_slug": "rajdhani-super",
+      "origin_label": "Gabtoli",
+      "destination_label": "Jatrabari",
+      "avg_speed_kmph": 16,
+      "stops": [
+        {"stop_slug": "gabtoli-stop", "distance_from_start_km": 0},
+        {"stop_slug": "technical", "distance_from_start_km": 2},
+        {"stop_slug": "shyamoli", "distance_from_start_km": 4},
+        {"stop_slug": "agargaon", "distance_from_start_km": 7},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 10},
+        {"stop_slug": "shahbagh", "distance_from_start_km": 13},
+        {"stop_slug": "gulistan", "distance_from_start_km": 14.5},
+        {"stop_slug": "motijheel-stop", "distance_from_start_km": 15.5},
+        {"stop_slug": "sayedabad", "distance_from_start_km": 18},
+        {"stop_slug": "jatrabari-stop", "distance_from_start_km": 20.5}
+      ]
+    },
+    {
+      "name": "Mohakhali - Azimpur",
+      "slug": "mohakhali-azimpur",
+      "bus_slug": "turag-city",
+      "origin_label": "Mohakhali",
+      "destination_label": "Azimpur",
+      "avg_speed_kmph": 15,
+      "stops": [
+        {"stop_slug": "mohakhali-stop", "distance_from_start_km": 0},
+        {"stop_slug": "farmgate-stop", "distance_from_start_km": 3},
+        {"stop_slug": "karwan-bazar", "distance_from_start_km": 4.5},
+        {"stop_slug": "science-lab", "distance_from_start_km": 7},
+        {"stop_slug": "new-market-stop", "distance_from_start_km": 8},
+        {"stop_slug": "azimpur", "distance_from_start_km": 9.5}
+      ]
+    }
+  ],
+  "fare_rules": [
+    {"bus_type": "local", "base_fare": 10, "per_km_rate": 2.2, "min_fare": 10, "rounding_step": 1},
+    {"bus_type": "sitting", "base_fare": 12, "per_km_rate": 2.5, "min_fare": 15, "rounding_step": 1},
+    {"bus_type": "ac", "base_fare": 30, "per_km_rate": 4.0, "min_fare": 35, "rounding_step": 5}
+  ]
+}

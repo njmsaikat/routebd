@@ -1,0 +1,799 @@
+This is exactly the kind of project that can become a **flagship portfolio project**. However, I wouldn't tell Claude to **clone** the existing website. Instead, tell it to **analyze it as a reference** and build a much more intelligent platform.
+
+Below is a prompt I'd actually use if I were building this.
+
+---
+
+# Project Requirements
+
+## Intelligent Dhaka Bus Route Platform (Portfolio Project)
+
+You are a Senior Software Architect, Senior UI/UX Designer, Product Manager, and Full Stack Engineer.
+
+Your task is to design and build a production-ready public transportation platform inspired by
+
+**Reference Website**
+[https://dhakabusservice.com](https://dhakabusservice.com)
+
+Do **NOT** clone this website.
+
+Instead, analyze it and build a significantly better, modern, intelligent, scalable solution.
+
+The goal is to solve the real-world problem of navigating Dhaka's public bus system.
+
+---
+
+# Objective
+
+Build a modern web application that helps users answer one question:
+
+> **"How do I get from Point A to Point B using public buses?"**
+
+The application should focus on usability, speed, intelligent route suggestions, and excellent UI/UX.
+
+This project will be used as my flagship portfolio project.
+
+Everything should look production-ready.
+
+---
+
+# Technology Stack
+
+Backend
+
+* Django
+* Django REST Framework
+* PostgreSQL
+* Redis
+* Celery
+
+Frontend
+
+* Next.js
+* TypeScript
+* TailwindCSS
+* React Query
+* Framer Motion
+
+Maps
+
+* Leaflet
+  or
+* MapLibre
+
+Deployment
+
+Frontend → Vercel
+
+Backend → Railway or Render
+
+Database → Neon PostgreSQL
+
+Storage → Cloudflare R2
+
+The architecture should remain modular and scalable.
+
+---
+
+# Primary Features
+
+## Intelligent Route Search
+
+Instead of searching buses,
+
+Users search
+
+From
+
+To
+
+Example
+
+```
+From:
+Banani
+
+To:
+Motijheel
+```
+
+The application should calculate
+
+* Best route
+* Direct buses
+* Alternative buses
+* Number of stops
+* Estimated travel time
+* Estimated fare
+* Walking distance
+* Transfer locations (if required)
+
+---
+
+## Interactive Route Map
+
+Every bus should have
+
+* Interactive route
+* Route animation
+* Bus stops
+* Stop information
+* Fare zones
+* Nearby landmarks
+
+---
+
+## Bus Directory
+
+Search
+
+Filter
+
+Sort
+
+Bus details
+
+Company
+
+Route
+
+Operating hours
+
+Fare
+
+Color
+
+Images
+
+---
+
+## Bus Stop Explorer
+
+Every stop should contain
+
+Nearby buses
+
+Connected routes
+
+Nearby landmarks
+
+Estimated walking distance
+
+Map
+
+---
+
+## Fare Calculator
+
+Users choose
+
+Start stop
+
+Destination
+
+System calculates estimated fare.
+
+---
+
+## Smart Search
+
+Search should support
+
+Bus name
+
+Bus stop
+
+Area
+
+Landmark
+
+Popular places
+
+Typo tolerance
+
+Autocomplete
+
+Recent searches
+
+---
+
+## Favorites
+
+Save
+
+Home
+
+Office
+
+University
+
+Frequently used routes
+
+---
+
+## Route Comparison
+
+Compare multiple buses
+
+Travel time
+
+Fare
+
+Stops
+
+Route
+
+Popularity
+
+---
+
+## Nearby Stops
+
+Allow browser location.
+
+Show
+
+Nearest bus stops
+
+Walking distance
+
+Available buses
+
+---
+
+## Community Reports
+
+Users can report
+
+Traffic
+
+Road closed
+
+Bus unavailable
+
+Diversion
+
+Heavy crowd
+
+Strike
+
+Construction
+
+Admin approval required.
+
+---
+
+## Blog & News
+
+Transport updates
+
+Road closures
+
+Government notices
+
+Traffic alerts
+
+Announcements
+
+---
+
+## Admin Dashboard
+
+Manage
+
+Bus companies
+
+Buses
+
+Routes
+
+Stops
+
+Fares
+
+News
+
+Users
+
+Reports
+
+Analytics
+
+---
+
+# User Roles
+
+Guest
+
+Registered User
+
+Moderator
+
+Administrator
+
+---
+
+# APIs
+
+Create a complete REST API
+
+Authentication
+
+JWT
+
+Swagger/OpenAPI documentation
+
+Versioning
+
+Pagination
+
+Filtering
+
+Search
+
+Rate limiting
+
+---
+
+# Database Design
+
+Design normalized database tables for
+
+Bus Companies
+
+Buses
+
+Routes
+
+Stops
+
+Fare
+
+Route Stops
+
+Users
+
+Saved Routes
+
+Reports
+
+News
+
+Reviews
+
+---
+
+# Search Engine
+
+Implement intelligent search using
+
+PostgreSQL Full Text Search
+
+or
+
+Elasticsearch
+
+Support
+
+Autocomplete
+
+Fuzzy search
+
+Synonyms
+
+---
+
+# Performance
+
+Caching
+
+Redis
+
+Optimized queries
+
+Pagination
+
+Lazy loading
+
+Image optimization
+
+Code splitting
+
+Target Lighthouse score above 95.
+
+---
+
+# UI/UX
+
+Modern SaaS quality.
+
+Inspired by
+
+Google Maps
+
+Uber
+
+Notion
+
+Linear
+
+Stripe
+
+Use
+
+Glassmorphism
+
+Subtle gradients
+
+Smooth animations
+
+Professional typography
+
+Dark mode
+
+Light mode
+
+Responsive design
+
+Excellent mobile experience
+
+---
+
+# SEO
+
+Complete SEO implementation
+
+Meta Tags
+
+Open Graph
+
+Twitter Cards
+
+Schema.org
+
+JSON-LD
+
+Sitemap
+
+robots.txt
+
+Canonical URLs
+
+Breadcrumbs
+
+Structured Data
+
+Semantic HTML
+
+Accessibility
+
+---
+
+# Future Ready
+
+Architect the project so future modules can be added without major refactoring.
+
+Examples
+
+Live Bus Tracking
+
+GPS Integration
+
+Mobile App
+
+Real-time Notifications
+
+AI Route Recommendation
+
+Offline Mode
+
+QR Ticketing
+
+Digital Payments
+
+Bus Seat Availability
+
+Transit Cards
+
+---
+
+# Bonus Features (Stretch Goals)
+
+If time permits, implement:
+
+### AI Route Assistant
+
+A chatbot where users ask:
+
+> "How do I go from Dhanmondi to Bashundhara?"
+
+The assistant returns:
+
+* Best bus
+* Alternative routes
+* Walking directions
+* Estimated fare
+* Estimated travel time
+
+### Analytics Dashboard
+
+Visualize:
+
+* Most searched routes
+* Popular stops
+* Peak usage hours
+* User trends
+
+### Public API Portal
+
+Allow developers to access:
+
+* Bus data
+* Stops
+* Routes
+* Fare information
+
+Provide API keys, rate limits, and interactive API documentation.
+
+---
+
+# Code Quality
+
+* TypeScript throughout the frontend.
+* Follow SOLID principles.
+* Use reusable React components.
+* Create reusable Django apps.
+* Keep business logic separate from views.
+* Write clean, maintainable, production-ready code.
+* Use environment variables for secrets.
+* Dockerize the application with Docker Compose.
+* Include CI-ready project structure.
+
+---
+
+# Deliverables
+
+* Complete source code
+* Modern folder structure
+* Database schema
+* REST API
+* Interactive frontend
+* Admin dashboard
+* README with setup instructions
+* Docker configuration
+* Deployment guides for Vercel (frontend) and Railway/Render (backend)
+
+The final application should feel like a real startup product rather than a student project, emphasizing clean architecture, scalability, exceptional UX, and solving a genuine transportation problem for users in Dhaka.
+
+
+
+
+I think this project has the potential to become **the #1 open-source/public transport platform for Bangladesh** if you don't limit it to Dhaka from the beginning.
+
+I'd design it so it can later support:
+
+* Dhaka
+* Chattogram
+* Khulna
+* Rajshahi
+* Sylhet
+* Barishal
+* Mymensingh
+* Rangpur
+
+instead of hardcoding only Dhaka.
+
+---
+
+# My Top Name Recommendations
+
+## 1. RouteBD ⭐⭐⭐⭐⭐ (My Favorite)
+
+```
+routebd.vercel.app
+```
+
+Simple.
+
+Professional.
+
+Easy to remember.
+
+Can later become
+
+```
+routebd.com
+```
+
+---
+
+## 2. BusBD ⭐⭐⭐⭐⭐
+
+```
+busbd.vercel.app
+```
+
+Very brandable.
+
+---
+
+## 3. TransitBD ⭐⭐⭐⭐⭐
+
+Sounds like a real startup.
+
+```
+transitbd.vercel.app
+```
+
+---
+
+## 4. GoBD
+
+```
+gobd.vercel.app
+```
+
+Very clean.
+
+---
+
+## 5. Jatra
+
+A beautiful Bangla word.
+
+```
+jatra.vercel.app
+```
+
+or
+
+```
+jatrabd.vercel.app
+```
+
+---
+
+## 6. MoveBD
+
+```
+movebd.vercel.app
+```
+
+Modern.
+
+---
+
+## 7. RideRoute
+
+```
+rideroute.vercel.app
+```
+
+---
+
+## 8. BusVerse
+
+Very startup-like.
+
+---
+
+## 9. NavBD
+
+```
+navbd.vercel.app
+```
+
+Short.
+
+Premium.
+
+---
+
+## 10. PathFinder BD
+
+```
+pathfinderbd.vercel.app
+```
+
+---
+
+# If You Want a Startup Name
+
+I'd choose
+
+## RoutePilot
+
+```
+routepilot.vercel.app
+```
+
+or
+
+```
+routepilot.app
+```
+
+Looks like a funded startup.
+
+---
+
+# Free Hosting Architecture
+
+Everything can stay within the free tiers while you're building your portfolio.
+
+| Service        | Platform                                      | Cost      |
+| -------------- | --------------------------------------------- | --------- |
+| Frontend       | Vercel                                        | Free      |
+| Backend        | Render or Railway (if free credits available) | Free      |
+| Database       | Neon PostgreSQL                               | Free      |
+| Redis          | Upstash Redis                                 | Free      |
+| Images         | Cloudflare R2 (free tier) or Cloudinary       | Free tier |
+| Authentication | Django JWT                                    | Free      |
+| Maps           | Leaflet + OpenStreetMap                       | Free      |
+| CI/CD          | GitHub Actions                                | Free      |
+| Monitoring     | UptimeRobot                                   | Free      |
+| Analytics      | Google Analytics or Plausible (self-hosted)   | Free      |
+| Email          | Brevo                                         | Free tier |
+
+---
+
+# Tech Stack
+
+```
+Next.js
+TypeScript
+TailwindCSS
+Framer Motion
+
+↓
+
+Django
+DRF
+PostgreSQL
+Redis
+Celery
+
+↓
+
+Docker
+
+↓
+
+GitHub
+
+↓
+
+Vercel
+Render
+Neon
+Upstash
+```
+
+---
+
+# Portfolio Impact
+
+If you build this properly, recruiters won't see "another Django CRUD app."
+
+They'll see someone who understands:
+
+* Product thinking
+* System design
+* Geospatial data
+* Search algorithms
+* API architecture
+* Modern frontend development
+* Scalable backend design
+* Real-world problem solving
+
+That's the kind of project people actually remember in interviews.
+
+## My recommendation
+
+If this is going to be your **flagship portfolio project**, I'd choose **RouteBD**.
+
+It's short, memorable, professional, and future-proof. It isn't tied only to buses or Dhaka, so you can later expand to other transport modes (metro, launch, train) and cities without rebranding. It also looks clean on a résumé and portfolio:
+
+* **Website:** `routebd.vercel.app`
+* **GitHub:** `github.com/njmsaikat/routebd`
+* **Future domain:** `routebd.com` or `routebd.app`
