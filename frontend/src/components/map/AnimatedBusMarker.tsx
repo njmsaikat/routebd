@@ -21,7 +21,7 @@ const busIcon = (color: string) =>
 function interpolate(points: [number, number][], t: number): [number, number] {
   if (points.length === 1) return points[0];
   const segment = t * (points.length - 1);
-  const i = Math.min(Math.floor(segment), points.length - 2);
+  const i = Math.min(Math.max(Math.floor(segment), 0), points.length - 2);
   const frac = segment - i;
   const [lat1, lng1] = points[i];
   const [lat2, lng2] = points[i + 1];
