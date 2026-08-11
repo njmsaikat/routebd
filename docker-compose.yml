@@ -5,8 +5,8 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-routebd}
       POSTGRES_USER: ${POSTGRES_USER:-routebd}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-routebd}
-    ports:
-      - "5432:5432"
+    # ports:
+    #   - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -28,7 +28,7 @@ services:
     volumes:
       - ./backend:/app
     ports:
-      - "8000:8000"
+      - "8045:8000"
     depends_on:
       postgres:
         condition: service_healthy
