@@ -5,7 +5,7 @@ from .services import search_journeys
 
 
 class JourneySearchView(APIView):
-    def get(self, request):
+    def get(self, request, **kwargs):
         from_query = request.query_params.get("from", "")
         to_query = request.query_params.get("to", "")
         if not from_query or not to_query:

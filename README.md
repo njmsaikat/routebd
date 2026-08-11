@@ -25,7 +25,7 @@ docker compose exec backend python manage.py load_seed_data
 docker compose exec backend python manage.py createsuperuser
 ```
 
-- Frontend: http://localhost:3000
+- Frontend: http://localhost:4000 (mapped from the container's port 3000 — remap back to `3000:3000` in `docker-compose.yml` if port 3000 is free on your machine)
 - API docs (Swagger): http://localhost:8000/api/docs/
 - Django Admin: http://localhost:8000/admin/
 

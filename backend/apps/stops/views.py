@@ -28,7 +28,7 @@ class StopViewSet(viewsets.ReadOnlyModelViewSet):
     search_fields = ["name"]
 
     @action(detail=False, methods=["get"])
-    def nearby(self, request):
+    def nearby(self, request, **kwargs):
         try:
             lat = float(request.query_params["lat"])
             lng = float(request.query_params["lng"])

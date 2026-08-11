@@ -5,7 +5,7 @@ from apps.journey.services import find_direct_routes, find_transfer_routes
 
 
 class FareCalculateView(APIView):
-    def get(self, request):
+    def get(self, request, **kwargs):
         try:
             from_stop_id = int(request.query_params["from_stop"])
             to_stop_id = int(request.query_params["to_stop"])

@@ -10,7 +10,7 @@ RESULTS_PER_TYPE = 5
 
 
 class AutocompleteView(APIView):
-    def get(self, request):
+    def get(self, request, **kwargs):
         query = request.query_params.get("q", "").strip()
         if len(query) < 2:
             return Response([])
